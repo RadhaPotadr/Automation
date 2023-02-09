@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Retry" verbose="1" >
+ <listeners>
+        <listener class-name="retry.DemoTransformer"/>
+  </listeners>
+  <test name="RetryMulitple">
+    <classes>
+      <class name="retry.Test001"/>
+      <class name="retry.Test002"/>
+    </classes>
+  </test>
+</suite>

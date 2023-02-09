@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	
+	<parameter name="password" value="Test@123"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="username" value="admin"/>
+	<parameter name="password1" value="admin123"/>
+	<parameter name="browser1" value="chrome"/>
+	<parameter name="username1" value="Admin"/>
+	<parameter name="password2" value="manager"/>
+	<parameter name="browser2" value="chrome"/>
+	<parameter name="username2" value="admin"/>
+		<classes>
+			<class name="parameterization.Vtiger" />
+			<class name="parameterization.orangehrm" />
+			<class name="parameterization.Actitime" />
+			</classes>
+	</test>
+</suite>

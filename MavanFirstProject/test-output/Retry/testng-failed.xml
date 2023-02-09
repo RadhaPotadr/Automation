@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Retry]">
+  <listeners>
+    <listener class-name="retry.DemoTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RetryMulitple(failed)">
+    <classes>
+      <class name="retry.UtilityactirimeTestng">
+        <methods>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- retry.UtilityactirimeTestng -->
+      <class name="retry.login">
+        <methods>
+          <include name="c"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- retry.login -->
+    </classes>
+  </test> <!-- RetryMulitple(failed) -->
+</suite> <!-- Failed suite [Retry] -->
