@@ -2,32 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28435" started-at="2023-02-08T21:30:19Z" finished-at="2023-02-08T21:30:47Z">
+  <suite name="Default suite" duration-ms="50913" started-at="2023-02-10T16:10:14Z" finished-at="2023-02-10T16:11:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28435" started-at="2023-02-08T21:30:19Z" finished-at="2023-02-08T21:30:47Z">
-      <class name="extendreports.UtilityVtigerTestng">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:extendreports.UtilityVtigerTestng@55a561cf]" name="startTest" is-config="true" duration-ms="156" started-at="2023-02-08T21:30:19Z" finished-at="2023-02-08T21:30:19Z">
+    <test name="Default test" duration-ms="50913" started-at="2023-02-10T16:10:14Z" finished-at="2023-02-10T16:11:05Z">
+      <class name="basicBDD.webpagesscripts.OrangeHrm">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="prerequisite" is-config="true" duration-ms="6848" started-at="2023-02-10T16:10:14Z" finished-at="2023-02-10T16:10:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="create()[pri:1, instance:extendreports.UtilityVtigerTestng@55a561cf]" name="create" duration-ms="9648" started-at="2023-02-08T21:30:19Z" finished-at="2023-02-08T21:30:29Z">
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="testPIMCreation()[pri:1, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="testPIMCreation" duration-ms="3704" started-at="2023-02-10T16:10:21Z" finished-at="2023-02-10T16:10:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- create -->
-        <test-method status="PASS" signature="modify()[pri:2, instance:extendreports.UtilityVtigerTestng@55a561cf]" name="modify" duration-ms="5306" started-at="2023-02-08T21:30:29Z" finished-at="2023-02-08T21:30:34Z">
+        </test-method> <!-- testPIMCreation -->
+        <test-method status="PASS" signature="postrequisite()[pri:0, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="postrequisite" is-config="true" duration-ms="141" started-at="2023-02-10T16:10:25Z" finished-at="2023-02-10T16:10:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modify -->
-        <test-method status="PASS" signature="delete()[pri:3, instance:extendreports.UtilityVtigerTestng@55a561cf]" name="delete" duration-ms="12997" started-at="2023-02-08T21:30:34Z" finished-at="2023-02-08T21:30:47Z">
+        </test-method> <!-- postrequisite -->
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="prerequisite" is-config="true" duration-ms="6099" started-at="2023-02-10T16:10:25Z" finished-at="2023-02-10T16:10:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:extendreports.UtilityVtigerTestng@55a561cf]" name="endTest" is-config="true" duration-ms="328" started-at="2023-02-08T21:30:47Z" finished-at="2023-02-08T21:30:47Z">
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="testPIMModofication()[pri:2, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="testPIMModofication" duration-ms="8697" started-at="2023-02-10T16:10:31Z" depends-on-methods="basicBDD.webpagesscripts.OrangeHrm.testPIMCreation" finished-at="2023-02-10T16:10:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- extendreports.UtilityVtigerTestng -->
+        </test-method> <!-- testPIMModofication -->
+        <test-method status="PASS" signature="postrequisite()[pri:0, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="postrequisite" is-config="true" duration-ms="154" started-at="2023-02-10T16:10:40Z" finished-at="2023-02-10T16:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequisite -->
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="prerequisite" is-config="true" duration-ms="6570" started-at="2023-02-10T16:10:40Z" finished-at="2023-02-10T16:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="testPIMDeletion()[pri:3, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="testPIMDeletion" duration-ms="2456" started-at="2023-02-10T16:10:47Z" depends-on-methods="basicBDD.webpagesscripts.OrangeHrm.testPIMCreation" finished-at="2023-02-10T16:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMDeletion -->
+        <test-method status="PASS" signature="postrequisite()[pri:0, instance:basicBDD.webpagesscripts.OrangeHrm@55a561cf]" name="postrequisite" is-config="true" duration-ms="16204" started-at="2023-02-10T16:10:49Z" finished-at="2023-02-10T16:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrequisite -->
+      </class> <!-- basicBDD.webpagesscripts.OrangeHrm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
