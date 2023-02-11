@@ -25,7 +25,7 @@ public class OrangeHrmPIMPage  extends SeleniumUtility{
 	@FindBy(xpath="//div[@class='oxd-table-card']/div/div[2]")
 	public List<WebElement> employees;
 	
-
+		
 	@FindBy(xpath="//div[div[div[div[text()='54336']]]]/div//i[@class='oxd-icon bi-check oxd-checkbox-input-icon']")
 	public WebElement checkbox;
 	
@@ -50,10 +50,10 @@ public class OrangeHrmPIMPage  extends SeleniumUtility{
 	public List<String> empName = new ArrayList();
 
 	public void getEmployee(List<WebElement> employees) {
-		
 		for(int i=0;i<employees.size();i++) {
 			empName.add(employees.get(i).getText());
 		}
 	}
+
 	
 }

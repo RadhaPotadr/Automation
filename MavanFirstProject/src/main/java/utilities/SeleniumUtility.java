@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -33,7 +34,9 @@ public class SeleniumUtility {
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			// use setup method of WebDriverManager
 			WebDriverManager.chromedriver().setup();
-			//System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Radha\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			//ChromeOptions opt= new ChromeOptions();
+			//opt.addArguments("--lang=en");
 			// step2: create an instance of Chrome Browser
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("ie")) {

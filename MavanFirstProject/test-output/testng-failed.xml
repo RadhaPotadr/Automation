@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicBDD.webpagesscripts.OrangeHrm">
+      <class name="basicBDD.webpagesscripts.Actitime">
         <methods>
-          <include name="testPIMCreation"/>
-          <include name="testPIMModofication"/>
-          <include name="testPIMDeletion"/>
-          <include name="prerequisite"/>
+          <include name="taskCreation"/>
+          <include name="taskModification"/>
           <include name="postrequisite"/>
+          <include name="prerequisite"/>
         </methods>
-      </class> <!-- basicBDD.webpagesscripts.OrangeHrm -->
+      </class> <!-- basicBDD.webpagesscripts.Actitime -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
