@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-13T01:21:51Z" name="Suite" finished-at="2023-02-13T01:22:11Z" duration-ms="20095">
+    <groups>
+    </groups>
+    <test started-at="2023-02-13T01:21:51Z" name="Test" finished-at="2023-02-13T01:22:11Z" duration-ms="20095">
+      <class name="annotations.Flipkart">
+        <test-method signature="open()[pri:5, instance:annotations.Flipkart@3012646b]" started-at="2023-02-13T01:21:59Z" name="open" finished-at="2023-02-13T01:22:06Z" duration-ms="6968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="popup()[pri:6, instance:annotations.Flipkart@3012646b]" started-at="2023-02-13T01:22:06Z" name="popup" finished-at="2023-02-13T01:22:07Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method signature="search()[pri:7, instance:annotations.Flipkart@3012646b]" started-at="2023-02-13T01:22:07Z" name="search" finished-at="2023-02-13T01:22:08Z" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="close()[pri:8, instance:annotations.Flipkart@3012646b]" started-at="2023-02-13T01:22:08Z" name="close" finished-at="2023-02-13T01:22:09Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- annotations.Flipkart -->
+      <class name="annotations.Gsearch">
+        <test-method signature="open()[pri:9, instance:annotations.Gsearch@4a883b15]" started-at="2023-02-13T01:22:09Z" name="open" finished-at="2023-02-13T01:22:10Z" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="popup()[pri:10, instance:annotations.Gsearch@4a883b15]" started-at="2023-02-13T01:22:10Z" name="popup" finished-at="2023-02-13T01:22:10Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method signature="search()[pri:11, instance:annotations.Gsearch@4a883b15]" started-at="2023-02-13T01:22:10Z" name="search" finished-at="2023-02-13T01:22:11Z" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="close()[pri:12, instance:annotations.Gsearch@4a883b15]" started-at="2023-02-13T01:22:11Z" name="close" finished-at="2023-02-13T01:22:11Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- annotations.Gsearch -->
+      <class name="annotations.Amazon">
+        <test-method signature="open()[pri:1, instance:annotations.Amazon@52719fb6]" started-at="2023-02-13T01:21:51Z" name="open" finished-at="2023-02-13T01:21:53Z" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="all()[pri:2, instance:annotations.Amazon@52719fb6]" started-at="2023-02-13T01:21:53Z" name="all" finished-at="2023-02-13T01:21:55Z" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all -->
+        <test-method signature="checkbox()[pri:3, instance:annotations.Amazon@52719fb6]" started-at="2023-02-13T01:21:55Z" name="checkbox" finished-at="2023-02-13T01:21:59Z" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox -->
+        <test-method signature="close()[pri:4, instance:annotations.Amazon@52719fb6]" started-at="2023-02-13T01:21:59Z" name="close" finished-at="2023-02-13T01:21:59Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- annotations.Amazon -->
+      <class name="annotations.Absuite">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:annotations.Absuite@6221a451]" started-at="2023-02-13T01:21:51Z" name="BeforeSuite" finished-at="2023-02-13T01:21:51Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:annotations.Absuite@6221a451]" started-at="2023-02-13T01:22:11Z" name="AfterSuite" finished-at="2023-02-13T01:22:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- annotations.Absuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
