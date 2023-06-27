@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicBDD.webpagesscripts.Actitime">
+      <class name="retry.login">
         <methods>
-          <include name="taskCreation"/>
-          <include name="taskModification"/>
-          <include name="postrequisite"/>
-          <include name="prerequisite"/>
+          <include name="c"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- basicBDD.webpagesscripts.Actitime -->
+      </class> <!-- retry.login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

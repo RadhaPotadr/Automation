@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\Automation\workspace\MavanFirstProject\testng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Automation\workspace\MavanFirstProject\Asssignments.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +91,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods,   12 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="basicBDD.webpagesscripts.Actitime" hash-for-method="taskDeletion">taskDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="basicBDD.webpagesscripts.Actitime" hash-for-method="taskModification">taskModification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="basicBDD.webpagesscripts.OrangeHrm" hash-for-method="testPIMCreation">testPIMCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="basicBDD.webpagesscripts.OrangeHrm" hash-for-method="testPIMDeletion">testPIMDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="basicBDD.webpagesscripts.OrangeHrm" hash-for-method="testPIMModofication">testPIMModofication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,63 +144,8 @@
                     </span>
                     <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Amazon" class="method navigator-link" hash-for-method="all">all</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Amazon" class="method navigator-link" hash-for-method="checkbox">checkbox</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Amazon" class="method navigator-link" hash-for-method="close">close</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Flipkart" class="method navigator-link" hash-for-method="close">close</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Gsearch" class="method navigator-link" hash-for-method="close">close</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Flipkart" class="method navigator-link" hash-for-method="open">open</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Amazon" class="method navigator-link" hash-for-method="open">open</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Gsearch" class="method navigator-link" hash-for-method="open">open</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Flipkart" class="method navigator-link" hash-for-method="popup">popup</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Gsearch" class="method navigator-link" hash-for-method="popup">popup</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Gsearch" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotations.Flipkart" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="basicBDD.webpagesscripts.Actitime" hash-for-method="taskCreation">taskCreation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -172,110 +160,126 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">annotations.Amazon</span>
+              <img src="failed.png"/>
+              <span class="class-name">basicBDD.webpagesscripts.OrangeHrm</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="all">
-                  </a> <!-- all -->
-                  <span class="method-name">all</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkbox">
-                  </a> <!-- checkbox -->
-                  <span class="method-name">checkbox</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="close">
-                  </a> <!-- close -->
-                  <span class="method-name">close</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="open">
-                  </a> <!-- open -->
-                  <span class="method-name">open</span>
+                  <a name="testPIMCreation">
+                  </a> <!-- testPIMCreation -->
+                  <span class="method-name">testPIMCreation</span>
+                  <div class="stack-trace">java.lang.AssertionError: PIM is created sucessfully expected [true] but found [false]
+	at basicBDD.webpagesscripts.OrangeHrm.testPIMCreation(OrangeHrm.java:48)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">annotations.Gsearch</span>
+              <img src="failed.png"/>
+              <span class="class-name">basicBDD.webpagesscripts.Actitime</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="close">
-                  </a> <!-- close -->
-                  <span class="method-name">close</span>
+                  <a name="taskDeletion">
+                  </a> <!-- taskDeletion -->
+                  <span class="method-name">taskDeletion</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-J0IRR7B1&apos;, ip: &apos;192.168.0.95&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Radha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bacc622ca33e68db17ff3771e8e62a7c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at basicBDD.webpagesscripts.Actitime.taskDeletion(Actitime.java:72)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="open">
-                  </a> <!-- open -->
-                  <span class="method-name">open</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="popup">
-                  </a> <!-- popup -->
-                  <span class="method-name">popup</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="search">
-                  </a> <!-- search -->
-                  <span class="method-name">search</span>
+                  <a name="taskModification">
+                  </a> <!-- taskModification -->
+                  <span class="method-name">taskModification</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-J0IRR7B1&apos;, ip: &apos;192.168.0.95&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Radha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5fe9a433e9bec391ba3e2cc76a7bb94
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at basicBDD.webpagesscripts.Actitime.taskModification(Actitime.java:56)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">annotations.Flipkart</span>
+              <img src="skipped.png"/>
+              <span class="class-name">basicBDD.webpagesscripts.OrangeHrm</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="close">
-                  </a> <!-- close -->
-                  <span class="method-name">close</span>
+                  <a name="testPIMDeletion">
+                  </a> <!-- testPIMDeletion -->
+                  <span class="method-name">testPIMDeletion</span>
+                  <div class="stack-trace">java.lang.Throwable: Method OrangeHrm.testPIMDeletion()[pri:3, instance:basicBDD.webpagesscripts.OrangeHrm@2b4a2ec7] depends on not successfully finished methods
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="open">
-                  </a> <!-- open -->
-                  <span class="method-name">open</span>
+                  <a name="testPIMModofication">
+                  </a> <!-- testPIMModofication -->
+                  <span class="method-name">testPIMModofication</span>
+                  <div class="stack-trace">java.lang.Throwable: Method OrangeHrm.testPIMModofication()[pri:2, instance:basicBDD.webpagesscripts.OrangeHrm@2b4a2ec7] depends on not successfully finished methods
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">basicBDD.webpagesscripts.Actitime</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="popup">
-                  </a> <!-- popup -->
-                  <span class="method-name">popup</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="search">
-                  </a> <!-- search -->
-                  <span class="method-name">search</span>
+                  <a name="taskCreation">
+                  </a> <!-- taskCreation -->
+                  <span class="method-name">taskCreation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -283,19 +287,17 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Automation\workspace\MavanFirstProject\testng.xml</span>
+            <span class="header-content">D:\Automation\workspace\MavanFirstProject\Asssignments.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;annotations.Absuite&quot;/&gt;
-      &lt;class name=&quot;annotations.Amazon&quot;/&gt;
-      &lt;class name=&quot;annotations.Flipkart&quot;/&gt;
-      &lt;class name=&quot;annotations.Gsearch&quot;/&gt;
+      &lt;class name=&quot;basicBDD.webpagesscripts.OrangeHrm&quot;/&gt;
+      &lt;class name=&quot;basicBDD.webpagesscripts.Actitime&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -309,7 +311,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -335,60 +337,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'open')
-data.setCell(0, 2, 'annotations.Flipkart')
-data.setCell(0, 3, 6968);
+data.setCell(0, 1, 'taskModification')
+data.setCell(0, 2, 'basicBDD.webpagesscripts.Actitime')
+data.setCell(0, 3, 10238);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkbox')
-data.setCell(1, 2, 'annotations.Amazon')
-data.setCell(1, 3, 4563);
+data.setCell(1, 1, 'taskDeletion')
+data.setCell(1, 2, 'basicBDD.webpagesscripts.Actitime')
+data.setCell(1, 3, 10146);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'open')
-data.setCell(2, 2, 'annotations.Amazon')
-data.setCell(2, 3, 2143);
+data.setCell(2, 1, 'taskCreation')
+data.setCell(2, 2, 'basicBDD.webpagesscripts.Actitime')
+data.setCell(2, 3, 6751);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'search')
-data.setCell(3, 2, 'annotations.Flipkart')
-data.setCell(3, 3, 1949);
+data.setCell(3, 1, 'testPIMCreation')
+data.setCell(3, 2, 'basicBDD.webpagesscripts.OrangeHrm')
+data.setCell(3, 3, 6686);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'all')
-data.setCell(4, 2, 'annotations.Amazon')
-data.setCell(4, 3, 1922);
+data.setCell(4, 1, 'testPIMModofication')
+data.setCell(4, 2, 'basicBDD.webpagesscripts.OrangeHrm')
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'open')
-data.setCell(5, 2, 'annotations.Gsearch')
-data.setCell(5, 3, 1610);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'search')
-data.setCell(6, 2, 'annotations.Gsearch')
-data.setCell(6, 3, 472);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'close')
-data.setCell(7, 2, 'annotations.Amazon')
-data.setCell(7, 3, 129);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'close')
-data.setCell(8, 2, 'annotations.Flipkart')
-data.setCell(8, 3, 99);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'close')
-data.setCell(9, 2, 'annotations.Gsearch')
-data.setCell(9, 3, 88);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'popup')
-data.setCell(10, 2, 'annotations.Flipkart')
-data.setCell(10, 3, 82);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'popup')
-data.setCell(11, 2, 'annotations.Gsearch')
-data.setCell(11, 3, 50);
+data.setCell(5, 1, 'testPIMDeletion')
+data.setCell(5, 2, 'basicBDD.webpagesscripts.OrangeHrm')
+data.setCell(5, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -414,75 +392,64 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">annotations.Absuite</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">BeforeSuite</span>
+              <div class="chronological-class-name">basicBDD.webpagesscripts.OrangeHrm</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">prerequisite</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPIMCreation</span>
+                <span class="method-start">7953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postrequisite</span>
+                <span class="method-start">14639 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">annotations.Amazon</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">basicBDD.webpagesscripts.Actitime</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">prerequisite</span>
+                <span class="method-start">14764 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">open</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-name">taskCreation</span>
+                <span class="method-start">25022 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postrequisite</span>
+                <span class="method-start">31773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prerequisite</span>
+                <span class="method-start">31906 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">all</span>
-                <span class="method-start">2169 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">taskModification</span>
+                <span class="method-start">41524 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postrequisite</span>
+                <span class="method-start">51762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">prerequisite</span>
+                <span class="method-start">51919 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">checkbox</span>
-                <span class="method-start">4092 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">taskDeletion</span>
+                <span class="method-start">64456 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">close</span>
-                <span class="method-start">8656 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">annotations.Flipkart</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">open</span>
-                <span class="method-start">8786 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">popup</span>
-                <span class="method-start">15755 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">search</span>
-                <span class="method-start">15837 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">close</span>
-                <span class="method-start">17787 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">annotations.Gsearch</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">open</span>
-                <span class="method-start">17887 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">popup</span>
-                <span class="method-start">19497 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">search</span>
-                <span class="method-start">19547 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">close</span>
-                <span class="method-start">20019 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">annotations.Absuite</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">AfterSuite</span>
-                <span class="method-start">20131 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="configuration-method after">
+                <span class="method-name">postrequisite</span>
+                <span class="method-start">74602 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

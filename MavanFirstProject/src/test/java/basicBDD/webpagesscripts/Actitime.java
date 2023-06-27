@@ -51,7 +51,9 @@ public class Actitime extends SeleniumUtility {
 
 	@Test(priority = 2, dependsOnMethods = "taskCreation")
 	public void taskModification() {
-		getActitimeTaskUpdatePage.Galaxy.click();
+		//getActitimeTaskUpdatePage.Galaxy.click();
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		getActitimeTaskUpdatePage.project.click();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		wait.until(ExpectedConditions.elementToBeClickable(getActitimeTaskUpdatePage.calander));
 		getActitimeTaskUpdatePage.calanderclick();
@@ -65,11 +67,12 @@ public class Actitime extends SeleniumUtility {
 	}
 
 	@Test(priority = 3, dependsOnMethods = "taskCreation")
-	public void taskDeletion() {
-		getActitimeTaskUpdatePage.Galaxy.click();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+	public void taskDeletion()  {
+		//getActitimeTaskUpdatePage.Galaxy.click();
+		getActitimeTaskUpdatePage.project.click();
+		//driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		wait.until(ExpectedConditions.elementToBeClickable(getActitimeDeleteTaskPage.checkbox));
-		getActitimeDeleteTaskPage.checkboxClick();
+		getActitimeDeleteTaskPage.checkbox.click();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		wait.until(ExpectedConditions.elementToBeClickable(getActitimeDeleteTaskPage.delete));
 		getActitimeDeleteTaskPage.delete.click();

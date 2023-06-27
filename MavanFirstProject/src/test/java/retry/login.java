@@ -21,6 +21,7 @@ public class login extends SeleniumUtility{
 	  wait = new WebDriverWait(driver, 20);
   }
   @Test
+  //(retryAnalyzer = retry.RetryAnalyzer.class)
   public void a() {
 	  typeInput(driver.findElement(By.name("username")),"admin");
 		typeInput(driver.findElement(By.name("pwd")), "manager");
@@ -29,6 +30,7 @@ public class login extends SeleniumUtility{
   }
   
   @Test
+  //(retryAnalyzer = retry.RetryAnalyzer.class)
   public void c() {
 	  typeInput(driver.findElement(By.name("username")),"trainee");
 		typeInput(driver.findElement(By.name("pwd")),"train");
@@ -37,6 +39,7 @@ public class login extends SeleniumUtility{
   }
 		
   @Test
+  //(retryAnalyzer = retry.RetryAnalyzer.class)
   public void d()  {
 	  typeInput(driver.findElement(By.name("username")), "username3");
 		typeInput(driver.findElement(By.name("pwd")), "password3");

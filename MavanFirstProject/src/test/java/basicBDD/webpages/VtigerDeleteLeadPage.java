@@ -19,8 +19,8 @@ public class VtigerDeleteLeadPage extends SeleniumUtility {
 	private WebElement createdLead;
 	@FindBy(css =".btn-group>button:nth-of-type(5)")
 	private WebElement more;
-	//@FindBy(id ="Leads_detailView_moreAction_Delete_Lead")
-	@FindBy(id ="Leads_detailView_moreAction_Apagar_Lead")
+	@FindBy(id ="Leads_detailView_moreAction_Delete_Lead")
+	//@FindBy(id ="Leads_detailView_moreAction_Apagar_Lead")
 	private WebElement deleteLead;
 	@FindBy(xpath ="//button[text()='Yes']")
 	private WebElement confirmDelete;

@@ -1,75 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23619" started-at="2023-02-11T14:19:20Z" finished-at="2023-02-11T14:19:44Z">
+  <suite name="Default suite" duration-ms="4488" started-at="2023-06-23T15:54:52Z" finished-at="2023-06-23T15:54:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23619" started-at="2023-02-11T14:19:20Z" finished-at="2023-02-11T14:19:44Z">
-      <class name="annotations.Flipkart">
-        <test-method status="PASS" signature="open()[pri:5, instance:annotations.Flipkart@475e586c]" name="open" duration-ms="6474" started-at="2023-02-11T14:19:32Z" finished-at="2023-02-11T14:19:38Z">
+    <test name="Default test" duration-ms="4488" started-at="2023-06-23T15:54:52Z" finished-at="2023-06-23T15:54:57Z">
+      <class name="extendreports.GoogleSearch">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:extendreports.GoogleSearch@4f638935]" name="startTest" is-config="true" duration-ms="141" started-at="2023-06-23T15:54:52Z" finished-at="2023-06-23T15:54:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="popup()[pri:6, instance:annotations.Flipkart@475e586c]" name="popup" duration-ms="259" started-at="2023-02-11T14:19:38Z" finished-at="2023-02-11T14:19:39Z">
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="extentReportsDemo()[pri:0, instance:extendreports.GoogleSearch@4f638935]" name="extentReportsDemo" duration-ms="4064" started-at="2023-06-23T15:54:52Z" finished-at="2023-06-23T15:54:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- popup -->
-        <test-method status="PASS" signature="search()[pri:7, instance:annotations.Flipkart@475e586c]" name="search" duration-ms="1704" started-at="2023-02-11T14:19:39Z" finished-at="2023-02-11T14:19:40Z">
+        </test-method> <!-- extentReportsDemo -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:extendreports.GoogleSearch@4f638935]" name="endTest" is-config="true" duration-ms="283" started-at="2023-06-23T15:54:56Z" finished-at="2023-06-23T15:54:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:8, instance:annotations.Flipkart@475e586c]" name="close" duration-ms="220" started-at="2023-02-11T14:19:40Z" finished-at="2023-02-11T14:19:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- annotations.Flipkart -->
-      <class name="annotations.Gsearch">
-        <test-method status="PASS" signature="open()[pri:9, instance:annotations.Gsearch@657c8ad9]" name="open" duration-ms="2234" started-at="2023-02-11T14:19:41Z" finished-at="2023-02-11T14:19:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="popup()[pri:10, instance:annotations.Gsearch@657c8ad9]" name="popup" duration-ms="85" started-at="2023-02-11T14:19:43Z" finished-at="2023-02-11T14:19:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- popup -->
-        <test-method status="PASS" signature="search()[pri:11, instance:annotations.Gsearch@657c8ad9]" name="search" duration-ms="551" started-at="2023-02-11T14:19:43Z" finished-at="2023-02-11T14:19:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:12, instance:annotations.Gsearch@657c8ad9]" name="close" duration-ms="184" started-at="2023-02-11T14:19:44Z" finished-at="2023-02-11T14:19:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- annotations.Gsearch -->
-      <class name="annotations.Amazon">
-        <test-method status="PASS" signature="open()[pri:1, instance:annotations.Amazon@6295d394]" name="open" duration-ms="5126" started-at="2023-02-11T14:19:20Z" finished-at="2023-02-11T14:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="all()[pri:2, instance:annotations.Amazon@6295d394]" name="all" duration-ms="1993" started-at="2023-02-11T14:19:25Z" finished-at="2023-02-11T14:19:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- all -->
-        <test-method status="PASS" signature="checkbox()[pri:3, instance:annotations.Amazon@6295d394]" name="checkbox" duration-ms="4536" started-at="2023-02-11T14:19:27Z" finished-at="2023-02-11T14:19:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkbox -->
-        <test-method status="PASS" signature="close()[pri:4, instance:annotations.Amazon@6295d394]" name="close" duration-ms="214" started-at="2023-02-11T14:19:32Z" finished-at="2023-02-11T14:19:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- annotations.Amazon -->
-      <class name="annotations.Absuite">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:annotations.Absuite@143640d5]" name="BeforeSuite" is-config="true" duration-ms="15" started-at="2023-02-11T14:19:20Z" finished-at="2023-02-11T14:19:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:annotations.Absuite@143640d5]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2023-02-11T14:19:44Z" finished-at="2023-02-11T14:19:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- annotations.Absuite -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- endTest -->
+      </class> <!-- extendreports.GoogleSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

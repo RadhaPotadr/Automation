@@ -5,8 +5,7 @@
   </listeners>
   <test name="RetryMulitple">
     <classes>
-      <class name="retry.Test001"/>
-      <class name="retry.Test002"/>
+       <class name="retry.login"/>
     </classes>
   </test>
 </suite>

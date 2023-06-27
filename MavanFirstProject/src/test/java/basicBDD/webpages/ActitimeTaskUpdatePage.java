@@ -17,7 +17,10 @@ public class ActitimeTaskUpdatePage extends SeleniumUtility {
 	@FindBy(xpath="//div[text()='Galaxy Corporation']")
 	public WebElement Galaxy;
 	
-	@FindBy(xpath = "//tr[td[div[div[div[div[text()='API testing']]]]]]/td[7]/div /div")
+	@FindBy(xpath="//div[text()='Android testing']")
+	public WebElement project;
+	
+	@FindBy(xpath = "//tr[td[div[div[div[div[text()='API testing']]]]]]/td[7]/div/div/span[2]")
 	public WebElement calander;
 	
 	@FindBy(css = ".x-date-right>a")

@@ -6,11 +6,6 @@
   </listeners>
   <test thread-count="5" name="RetryMulitple(failed)">
     <classes>
-      <class name="retry.UtilityactirimeTestng">
-        <methods>
-          <include name="delete"/>
-        </methods>
-      </class> <!-- retry.UtilityactirimeTestng -->
       <class name="retry.login">
         <methods>
           <include name="c"/>
