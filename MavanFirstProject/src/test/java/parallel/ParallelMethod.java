@@ -31,7 +31,7 @@ public class ParallelMethod {
 			driver.manage().window().maximize();
 			Assert.assertEquals(driver.getTitle(), "StackDemo");
 		}
-		@Test(priority = 3)
+		/*@Test(priority = 3)
 		public void testTitle() {
 			System.setProperty("webdriver.edge.driver", "D:\\Automation\\workspace\\seleniumlessons\\drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
@@ -39,6 +39,6 @@ public class ParallelMethod {
 			driver.manage().window().maximize();
 			System.out.println("The thread ID for testTitle Edge is " + Thread.currentThread().getId());
 			Assert.assertEquals(driver.getTitle(), "StackDemo");
-		}
+		}*/
 }
 

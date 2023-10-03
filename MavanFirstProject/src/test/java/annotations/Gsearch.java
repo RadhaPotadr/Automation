@@ -26,7 +26,7 @@ public class Gsearch extends SeleniumUtility {
 		List <WebElement> sugg= driver.findElements(By.cssSelector("ul.G43f7e>li>div>div:nth-of-type(2)>div:nth-of-type(1)>span"));
 		System.out.println("number of suggesion : "+ sugg.size());
 		for(int i=0;i<sugg.size();i++) {
-			System.out.println((i+1)+"suggesion  is : "+ sugg.get(i).getText());
+			System.out.println((i+1)+"suggesion  is: "+ sugg.get(i).getText());
 		}
   }
   @Test(priority=12)
