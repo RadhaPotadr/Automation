@@ -2,7 +2,7 @@
 <suite name="Parameterization Test Suite">
 	<test name="Testing Parameterization">
 	
-	<parameter name="password" value="Test@123"/>
+	<parameter name="password" value="admin"/>
 	<parameter name="browser" value="chrome"/>
 	<parameter name="username" value="admin"/>
 	<parameter name="password1" value="admin123"/>
@@ -12,9 +12,11 @@
 	<parameter name="browser2" value="chrome"/>
 	<parameter name="username2" value="admin"/>
 		<classes>
-			<class name="parameterization.Vtiger" />
-			<class name="parameterization.orangehrm" />
-			<class name="parameterization.Actitime" />
+			
+			<class name="parameterization.copy.Actitime" />
+			<class name="parameterization.copy.orangehrm" />
+			<class name="parameterization.copy.Vtiger" />
+			
 			</classes>
 	</test>
 </suite>

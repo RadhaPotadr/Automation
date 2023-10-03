@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Retry]">
-  <listeners>
-    <listener class-name="retry.DemoTransformer"/>
-  </listeners>
-  <test thread-count="5" name="RetryMulitple(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="retry.login">
+      <class name="extendreports.ExtentReportSS">
         <methods>
-          <include name="c"/>
-          <include name="beforeMethod"/>
-          <include name="afterTest"/>
+          <include name="startTest"/>
+          <include name="TestCase2"/>
+          <include name="endTest"/>
         </methods>
-      </class> <!-- retry.login -->
+      </class> <!-- extendreports.ExtentReportSS -->
     </classes>
-  </test> <!-- RetryMulitple(failed) -->
-</suite> <!-- Failed suite [Retry] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

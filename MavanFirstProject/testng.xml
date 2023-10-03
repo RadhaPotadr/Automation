@@ -4,8 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
      <class name="annotations.Absuite"/>
-      <class name="annotations.Amazon"/>
-      <class name="annotations.Flipkart"/>
       <class name="annotations.Gsearch"/>
     </classes>
   </test> <!-- Test -->

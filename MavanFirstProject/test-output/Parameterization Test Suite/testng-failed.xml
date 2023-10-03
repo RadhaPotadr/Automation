@@ -2,9 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Parameterization Test Suite]">
   <test thread-count="5" name="Testing Parameterization(failed)">
-    <parameter name="password" value="manager"/>
+    <parameter name="password" value="Test@123"/>
     <parameter name="browser" value="chrome"/>
+    <parameter name="password2" value="manager"/>
+    <parameter name="password1" value="admin123"/>
+    <parameter name="username2" value="admin"/>
+    <parameter name="username1" value="Admin"/>
+    <parameter name="browser2" value="chrome"/>
     <parameter name="username" value="admin"/>
+    <parameter name="browser1" value="chrome"/>
     <classes>
       <class name="parameterization.Vtiger">
         <methods>

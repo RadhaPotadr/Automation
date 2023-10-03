@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [Parallel test suite]" parallel="methods">
-  <test thread-count="2" name="Chrome(failed)" parallel="methods">
-    <parameter name="password" value="Test@123"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="username" value="admin"/>
+<suite thread-count="2" name="Failed suite [Parallel Test Suite]" parallel="classes">
+  <test thread-count="2" name="Parallel Test(failed)" parallel="classes">
     <classes>
-      <class name="parallel.paralleltest">
+      <class name="parallel.FirefoxTest">
         <methods>
-          <include name="testLoginOfVtiger2" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="clickOrders"/>
+          <include name="testTitle"/>
+          <include name="tearDown"/>
+          <include name="clickOffers"/>
         </methods>
-      </class> <!-- parallel.paralleltest -->
+      </class> <!-- parallel.FirefoxTest -->
+      <class name="parallel.EdgeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testTitle"/>
+          <include name="tearDown"/>
+          <include name="clickOrders"/>
+          <include name="clickOffers"/>
+        </methods>
+      </class> <!-- parallel.EdgeTest -->
+      <class name="parallel.ChromeTest">
+        <methods>
+          <include name="clickOrders"/>
+          <include name="testTitle"/>
+          <include name="setUp"/>
+          <include name="clickOffers"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- parallel.ChromeTest -->
     </classes>
-  </test> <!-- Chrome(failed) -->
-</suite> <!-- Failed suite [Parallel test suite] -->
+  </test> <!-- Parallel Test(failed) -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->
